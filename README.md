@@ -10,11 +10,13 @@ The data from the actual.csv file required no further transformations. To optimi
 # Questions
 
 - Actual Performance by Product, Person & Team
-- Which products have the highest profit per box?
-- Forecast sales for the next 3 months
+- Variance trends
+- Products by highest profit per box
+- Forecast sales for the next 3 months  
+  
 # Analysis
 
-### Actual Performance by Product, Person & Team & Overall Variance by Sales Person
+### Actual Performance
 I created measures for Total Sales, Total Expenses, and Total Profit. Using a clustered column chart, I visualized the performance of each team. I also added a dropdown filter for products and a table displaying profit and salespeople names to enable filtering by relevant dimensions. Key indicators, including Variance in percentage, were highlighted as cards at the top of the page to facilitate comparison by salesperson, team, or product.
 
 ### Highest Profit per Box
