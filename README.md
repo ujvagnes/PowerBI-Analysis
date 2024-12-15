@@ -1,3 +1,6 @@
+# Introduction
+ In this project, I followed a PowerBI workshop by Chandoo, available [here](https://www.youtube.com/watch?v=8tfcVnoEL0c&list=PLmejDGrsgFyDMME3o2CamamZ8w9NxSWWo&index=10). Throughout the process, I made some adjustments based on my personal preferences.
+
 # Data Preparation
 
 The target.csv file was imported incorrectly, with Power BI creating column headers such as Column1, Column2, etc. To resolve this, I transformed the first row (containing Sales Person, Month, etc.) into headers. I then unpivoted all columns except the Sales Person. Since the date format ('Aug-21', 'Sept-21') was not recognized correctly as M-Y but as M-D with the actual year, I added a prefix '1-' to each date and changed the data type to Date.
