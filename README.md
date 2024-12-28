@@ -69,17 +69,26 @@ I created cards in the centre of the main page where stakeholders can see the Mo
 
 I utilized field parameters to create one line chart that can showcase each main trend one by one on the same timeline. 
 
+![Field Parameters as Y axis](assets/8.jpg)
+
 ### Bins to see the box size distribution
 
 I visualised the distribution of different box sizes among all shipments and I created bins with the size of 20 for that, and added a zoom slider for making it possible to filter for distinct ranges. Stakeholders are even informed about the LBS (low box size) % for each month. 
+
+![Bins as the X axis](assets/9.jpg)
 
 ### Bookmarks for navigation
 
 To avoid information overload, I have created separate page for the performance report and I created bookmarks not only to navigate between trends and performance reports but also to switch between sales person performance and product performance.
 
+![Bookmarks as navigation - highlighted](assets/3.jpg)
+
+
 ### Performance Reports
 
 I created tables to examine the performance of each sales person and each product. Beside the marketing measures, I added a last column with conditional formatting to highlight if they reached the target or not.
+
+![Example of filtered performance report](assets/4.jpg)
 
 # Project 1. - Sales Analysis
 ## Data Preparation
@@ -103,5 +112,9 @@ I created measures for Total Sales, Total Expenses, and Total Profit. Using a cl
 ### Highest Profit per Box
 To calculate Profit per Box, I created a new measure for Total Boxes. I then built a table, sorted by Profit per Box, to display the results.
 
+![Example of filtered performance report](assets/10.jpg)
+
 ### Forecast Sales for the Next 3 Months
 On a new page, I used a line chart to visualize the forecast for total sales over the next 3 months. Lastly, I added navigation buttons to allow easy switching between pages.
+
+![Example of filtered performance report](assets/11.jpg)
